@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipes</title>
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.favorites-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.back-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Favorite Recipes</h1>
+        <a href="index.html">Go back to Main Page</a>
+    </header>
+    
+    <!-- Add a section for displaying favorite recipes -->
+    <div class="favorites-section">
+        <h2>Favorites:</h2>
+        <div id="favoritesContainer">
+            <!-- Recipe cards will be added here dynamically -->
+        </div>
+    </div>
+
+    <button class="back-button">Go Back</button>
+
+    <script>
+
+
+
+
+
+       
+        // Function to remove a recipe from favorites
+        function removeFromFavorites(recipeName) {
+            // Retrieve favorite recipes from local storage
+            const storedFavoriteRecipes = JSON.parse(localStorage.getItem('favoriteRecipes'));
+
+            if (storedFavoriteRecipes && storedFavoriteRecipes.length > 0) {
+                // Find the index of the recipe to remove
+                const indexToRemove = storedFavoriteRecipes.findIndex(recipe => recipe.name === recipeName);
+
+                if (indexToRemove !== -1) {
+                    // Remove the recipe from the stored favorites
+                    storedFavoriteRecipes.splice(indexToRemove, 1);
+
+                    // Update the local storage with the modified favorites
+                    localStorage.setItem('favoriteRecipes', JSON.stringify(storedFavoriteRecipes));
+
+                    // Re-display the favorite recipes
+                    displayFavoriteRecipes();
+                }
+            }
+        }
+
+        // Call the displayFavoriteRecipes function to initially display favorite recipes
+        displayFavoriteRecipes();
+
+
+        // JavaScript in favorites.html
+const urlParams = new URLSearchParams(window.location.search);
+const cardId = urlParams.get("cardId");
+
+if (cardId) {
+    // Display the card with the specified ID on this page
+    const recipeCard = document.getElementById(cardId);
+    if (recipeCard) {
+        // Append the card to the container on this page
+        const favoritesContainer = document.getElementById("recipe-card");
+        favoritesContainer.appendChild(recipeCard);
+    }
+}
+
+    </script>
+</body>
+</html>

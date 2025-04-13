@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pantry Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <div class="lsh">
+        <div class="header">
+            <i class="fa fa-list"></i>
+            <h1 class="header-text">PANTRY</h1>
+            <div class="search-bar-left">
+                <i class="search-icon"></i>
+                <input type="text" id="search-ing" placeholder="Search...">
+            </div> 
+        </div>
+        <div class="menu-icon">
+            <div class="menu-lines"></div>
+            <div class="menu-lines"></div>
+            <div class="menu-lines"></div>
+        </div>
+    </div>
+    
+        <div class="left-sidebar">
+            <div class="vertical-line"></div>
+
+
+            <div class="ingredient-container"> 
+                <h2 class="ingredient-header">
+                    <img src="./images/diet.png" alt="image" width="60px" height="60px"  align = "left">
+                    Pantry Essentials
+                </h2>
+
+
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="water">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="garlic">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="olive oil">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="long grain rice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="tomato">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh parsley">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="Italian parsley">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="wrap foil">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="half-and-half">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="nonstick cooking spray">
+                    <div id="buttonContainer"></div>
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/vegetable.png" alt="image" width="60px" height="60px"  align = "left">Vegetables & Greens </h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="tomatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="onion">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="celery">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="zucchini">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yellow squash">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="green bell pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="onions">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="green onion">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="asparagus">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="potatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="carrot">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="shallots">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="corn on the cob">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yellow onion">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="red onion">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="avocado">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="garlic clove">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="vegetables">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="plantains">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="leek">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pickling cucumbers">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="green pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="carrots">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="celery rib">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="red onions">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="arugula">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yellow onions">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="plum tomatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ladyfingers">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="green onions">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="parsnip">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="baby carrots">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pumpkin">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="parsnips">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="mixed salad greens">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="green chilies">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="broccoli">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="corn">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cherry tomatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="snow pea pods">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="frozen chopped spinach">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="hot green chili peppers">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="sweet potatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="frozen chopped broccoli">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="red pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yellow pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="celery ribs">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="baby corn">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="jalapeno pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yellow bell pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="whole tomatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="turnip">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="roma tomatoes">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh jalapeno peppers">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cabbage">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="aubergine">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fennel bulb">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lemons">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh spinach leaves">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="french style green beans">
+                    <div id="buttonContainer"></div>
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/mushroom.png" alt="image" width="60px" height="60px"  align = "left" >Mushrooms</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="mushroom">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="button mushrooms">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="portabella mushrooms">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh mushrooms">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="mushrooms">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="shiitake mushrooms">
+                    <div id="buttonContainer"></div>
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/fruit.png" alt="image" width="60px" height="60px"  align = "left">Fruits</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="red bell pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lemon juice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="juice of lemon">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="bananas">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="juice of lime">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh lemon juice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="dried cranberries">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="dates">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="mashed banana">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="raisins">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lime juice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="banana">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="tart apples">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="apple">
+                    <div id="buttonContainer"></div>
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/berries.png" alt="image" width="60px" height="60px"  align = "left">Berries</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="dried sour cherries">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="strawberry">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh raspberry">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="frozen blackberries">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="maraschino cherries">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="strawberries">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/nuts.png" alt="image" width="60px" height="60px"  align = "left">Nuts & Seeds</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="slivered almonds">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pecans">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="walnuts">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="nuts">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="sunflower seeds">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="sliced almonds">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pistachios">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cashews">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="almonds">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/cheese.png" alt="image" width="60px" height="60px"  align = "left">Cheeses</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="cheddar cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pecorino cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh parmesan cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="gruyere">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cottage cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ricotta cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="part-skim mozzarella cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="italian cheese blend">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="mozzarella cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="parmesan cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="camembert cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="gorgonzola">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cream cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="brie cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="mascarpone">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="monterey jack cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="provolone cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="muenster cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="large curd cottage cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="feta cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="reduced-fat swiss cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="gouda cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="white cheddar cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="swiss cheese">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="light cream cheese">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/dairy-products.png" alt="image" width="60px" height="60px"  align = "left">Dairy & Egg</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="sour cream">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="eggs">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="milk">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="butter">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="margarine">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="egg">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="egg white">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="unsalted butter">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="low-fat milk">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="whipped cream">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="kefir">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="heavy cream">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="egg yolks">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lime curd">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="double cream">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="heavy whipping cream">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="vegetable shortening">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="shortening">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="evaporated milk">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="hard-boiled eggs">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="buttermilk">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="egg whites">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="skim milk">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="yogurt">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="plain low-fat yogurt">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="plain yogurt">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ghee">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="low-fat margarine">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="half-and-half cream">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/lactose-free.png" alt="image" width="60px" height="60px"  align = "left">Dairy-Free & Meet Substitutes</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="firm tofu">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="Vegan mayonnaise">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/lamb.png" alt="image" width="60px" height="60px"  align = "left">Meats</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="andouille sausage">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="beef stew meat">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="chicken breasts">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lean ground beef">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="new york strip steaks">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="chicken breast tenders">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ground beef">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="racks of lamb">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="italian sausage">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="bacon">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ground pork">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="skinless chicken breasts">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="meat">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ground chicken">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pork loin chops">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="sirloin steaks">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cooked ham">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="smoked sausage">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="boneless beef chuck roast">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="pancetta">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="veal loin">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="black forest ham">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/turkey.png" alt="image" width="60px" height="60px"  align = "left">Poultry</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="turkey">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="boneless chicken">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cooked chicken">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/fish.png" alt="image" width="60px" height="60px"  align = "left">Fish</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="red snapper fillets">
+                    <div id="buttonContainer"></div>
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/lobster.png" alt="image" width="60px" height="60px"  align = "left">Seafood & Seaweed</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="large shrimp">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="lump crabmeat">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="prawns">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="shrimp">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh crabmeat">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cooked shrimp">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="sea scallops">
+                    <div id="buttonContainer"></div>
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/tea.png" alt="image" width="60px" height="60px"  align = "left">Herbs & Spices</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="bay leaves">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh parsley">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="italian parsley">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="black pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="allspice">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cinnamon">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ground cumin">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="ground coriander">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="cayenne pepper">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="parsley">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh sage">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="fresh thyme">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="nutmeg">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="onion powder">
+                    <div id="buttonContainer"></div>
+                    <input type="button" class="ingredient-button" value="bay leaf">
+                    <input type="button" class="ingredient-button" value="thyme">
+                    <input type="button" class="ingredient-button" value="whole black peppercorn">
+                    <input type="button" class="ingredient-button" value="black peppercorns">
+                    <input type="button" class="ingredient-button" value="green peppercorn">
+                    <input type="button" class="ingredient-button" value="fresh chives">
+                    <input type="button" class="ingredient-button" value="fresh ground black pepper">
+                    <input type="button" class="ingredient-button" value="cumin">
+                    <input type="button" class="ingredient-button" value="cilantro">
+                    <input type="button" class="ingredient-button" value="fresh italian parsley">
+                    <input type="button" class="ingredient-button" value="coriander seed">
+                    <input type="button" class="ingredient-button" value="fresh dill">
+                    <input type="button" class="ingredient-button" value="chili powder">
+                    <input type="button" class="ingredient-button" value="garlic powder">
+                    <input type="button" class="ingredient-button" value="coriander">
+                    <input type="button" class="ingredient-button" value="ginger">
+                    <input type="button" class="ingredient-button" value="cardamom">
+                    <input type="button" class="ingredient-button" value="turmeric">
+                    <input type="button" class="ingredient-button" value="mace">
+                    <input type="button" class="ingredient-button" value="clove">
+                    <input type="button" class="ingredient-button" value="parsley flakes">
+                    <input type="button" class="ingredient-button" value="peppercorn">
+                    <input type="button" class="ingredient-button" value="zest of lemons">
+                    <input type="button" class="ingredient-button" value="pepper">
+                    <input type="button" class="ingredient-button" value="fresh ground pepper">
+                    <input type="button" class="ingredient-button" value="fresh cilantro">
+                    <input type="button" class="ingredient-button" value="freshly ground black pepper">
+                    <input type="button" class="ingredient-button" value="fresh ground white pepper">
+                    <input type="button" class="ingredient-button" value="fresh basil">
+                    <input type="button" class="ingredient-button" value="fresh gingerroot">
+                    <input type="button" class="ingredient-button" value="dried red chilies">
+                    <input type="button" class="ingredient-button" value="ground turmeric">
+                    <input type="button" class="ingredient-button" value="whole cumin seeds">
+                    <input type="button" class="ingredient-button" value="red pepper flakes">
+                    <input type="button" class="ingredient-button" value="fresh basil leaves">
+                    <input type="button" class="ingredient-button" value="ground allspice">
+                    <input type="button" class="ingredient-button" value="cinnamon sticks">
+                    <input type="button" class="ingredient-button" value="oregano">
+                    <input type="button" class="ingredient-button" value="orange peel">
+                    <input type="button" class="ingredient-button" value="mint leaves">
+                    <input type="button" class="ingredient-button" value="chives">
+                    <input type="button" class="ingredient-button" value="paprika">
+                    <input type="button" class="ingredient-button" value="cinnamon stick">
+                    <input type="button" class="ingredient-button" value="green cardamom pods">
+                    <input type="button" class="ingredient-button" value="red chile">
+                    <input type="button" class="ingredient-button" value="lemon zest">
+                    <input type="button" class="ingredient-button" value="saffron thread">
+                    <input type="button" class="ingredient-button" value="green cardamom seeds">
+                    <input type="button" class="ingredient-button" value="saffron">
+                    <input type="button" class="ingredient-button" value="peppercorns">
+                    <input type="button" class="ingredient-button" value="cardamom seed">
+                    <input type="button" class="ingredient-button" value="cumin seed">
+                    <input type="button" class="ingredient-button" value="poppy seed">
+                    <input type="button" class="ingredient-button" value="dried basil">
+                    <input type="button" class="ingredient-button" value="dried ancho chile powder">
+                    <input type="button" class="ingredient-button" value="dried chipotle powder">
+                    <input type="button" class="ingredient-button" value="ground cinnamon">
+                    <input type="button" class="ingredient-button" value="red chilies">
+                    <input type="button" class="ingredient-button" value="white pepper">
+                    <input type="button" class="ingredient-button" value="dried oregano">
+                    <input type="button" class="ingredient-button" value="fresh thyme leave">
+                    <input type="button" class="ingredient-button" value="fresh parsley leaves">
+                    <input type="button" class="ingredient-button" value="gingerroot">
+                    <input type="button" class="ingredient-button" value="lime peel">
+                    <input type="button" class="ingredient-button" value="ground black pepper">
+                    <input type="button" class="ingredient-button" value="mint">
+                    <input type="button" class="ingredient-button" value="dried marjoram">
+                    <input type="button" class="ingredient-button" value="dried thyme">
+                    <input type="button" class="ingredient-button" value="ground rosemary">
+                    <input type="button" class="ingredient-button" value="smoked paprika">
+                    
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/honey (1).png" alt="image" width="60px" height="60px"  align = "left">Sugar & Sweetners</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="sugar">
+                    <input type="button" class="ingredient-button" value="granulated sugar">
+                    <input type="button" class="ingredient-button" value="dark brown sugar">
+                    <input type="button" class="ingredient-button" value="brown sugar">
+                    <input type="button" class="ingredient-button" value="superfine sugar">
+                    <input type="button" class="ingredient-button" value="sugar syrup">
+                    <input type="button" class="ingredient-button" value="icing sugar">
+                    <input type="button" class="ingredient-button" value="caster sugar">
+                    <input type="button" class="ingredient-button" value="light brown sugar">
+                    <input type="button" class="ingredient-button" value="white sugar">
+                    <input type="button" class="ingredient-button" value="honey">
+                    <input type="button" class="ingredient-button" value="powdered sugar">
+                    <input type="button" class="ingredient-button" value="sugar confectioners">
+                    <input type="button" class="ingredient-button" value="palm sugar">
+                    <input type="button" class="ingredient-button" value="molasses">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/seasoning.png" alt="image" width="60px" height="60px"  align = "left">Seasonings & Spice Blends</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="salt">
+                    <input type="button" class="ingredient-button" value="italian seasoning">
+                    <input type="button" class="ingredient-button" value="salt and pepper">
+                    <input type="button" class="ingredient-button" value="salt %26 pepper">
+                    <input type="button" class="ingredient-button" value="poultry seasoning">
+                    <input type="button" class="ingredient-button" value="kosher salt">
+                    <input type="button" class="ingredient-button" value="liquid smoke">
+                    <input type="button" class="ingredient-button" value="garlic salt">
+                    <input type="button" class="ingredient-button" value="old bay seasoning">
+                    <input type="button" class="ingredient-button" value="seasoning">
+                    <input type="button" class="ingredient-button" value="curry powder">
+                    <input type="button" class="ingredient-button" value="chili seasoning mix">
+                    <input type="button" class="ingredient-button" value="cinnamon-sugar mixture">
+                    <input type="button" class="ingredient-button" value="sea salt">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/apple-pie.png" alt="image" width="60px" height="60px"  align = "left">Baking</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="flour">
+                    <input type="button" class="ingredient-button" value="baking powder">
+                    <input type="button" class="ingredient-button" value="vanilla extract">
+                    <input type="button" class="ingredient-button" value="whole wheat flour">
+                    <input type="button" class="ingredient-button" value="chocolate chips">
+                    <input type="button" class="ingredient-button" value="decorator sugar">
+                    <input type="button" class="ingredient-button" value="all-purpose flour">
+                    <input type="button" class="ingredient-button" value="baking soda">
+                    <input type="button" class="ingredient-button" value="vanilla">
+                    <input type="button" class="ingredient-button" value="semi-sweet chocolate chips">
+                    <input type="button" class="ingredient-button" value="cornstarch">
+                    <input type="button" class="ingredient-button" value="cornflour">
+                    <input type="button" class="ingredient-button" value="bittersweet chocolate chips">
+                    <input type="button" class="ingredient-button" value="vanilla bean">
+                    <input type="button" class="ingredient-button" value="coffee beans">
+                    <input type="button" class="ingredient-button" value="self rising flour">
+                    <input type="button" class="ingredient-button" value="ground almonds">
+                    <input type="button" class="ingredient-button" value="unsweetened cocoa powder">
+                    <input type="button" class="ingredient-button" value="sweetened cocoa powder">
+                    <input type="button" class="ingredient-button" value="yellow cornmeal">
+                    <input type="button" class="ingredient-button" value="flaked coconut">
+                    <input type="button" class="ingredient-button" value="vanilla essence">
+                    <input type="button" class="ingredient-button" value="shredded coconut">
+                    <input type="button" class="ingredient-button" value="unflavored gelatin">
+                    <input type="button" class="ingredient-button" value="cornmeal">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/rolling-pin (1).png" alt="image" width="60px" height="60px"  align = "left">Pre-made Doughs & Wrappers</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="wonton wrappers">
+                    <input type="button" class="ingredient-button" value="grape leaves">
+                    <input type="button" class="ingredient-button" value="pie crusts">
+                    <input type="button" class="ingredient-button" value="frozen pie crusts">
+                    <input type="button" class="ingredient-button" value="crescent roll dough">
+                    <input type="button" class="ingredient-button" value="puff pastry">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/cereals.png" alt="image" width="60px" height="60px"  align = "left">Grains & Cereals</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="grits">
+                    <input type="button" class="ingredient-button" value="long grain rice">
+                    <input type="button" class="ingredient-button" value="rice">
+                    <input type="button" class="ingredient-button" value="bulgur">
+                    <input type="button" class="ingredient-button" value="rolled oats">
+                    <input type="button" class="ingredient-button" value="medium grain rice">
+                    <input type="button" class="ingredient-button" value="basmati rice">
+                    <input type="button" class="ingredient-button" value="quick-cooking oats">
+                    <input type="button" class="ingredient-button" value="prepared polenta">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/peas.png" alt="image" width="60px" height="60px"  align = "left">Legumes</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="white beans">
+                    <input type="button" class="ingredient-button" value="black beans">
+                    <input type="button" class="ingredient-button" value="pink beans">
+                    <input type="button" class="ingredient-button" value="french lentils">
+                    <input type="button" class="ingredient-button" value="snow peas">
+                    <input type="button" class="ingredient-button" value="dried pinto beans">
+                    <input type="button" class="ingredient-button" value="green beans">
+                    <input type="button" class="ingredient-button" value="kidney beans">
+                    <input type="button" class="ingredient-button" value="pinto beans">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/spaguetti.png" alt="image" width="60px" height="60px"  align = "left">Pasta</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="elbow macaroni">
+                    <input type="button" class="ingredient-button" value="macaroni noodles">
+                    <input type="button" class="ingredient-button" value="ramen noodles">
+                    <input type="button" class="ingredient-button" value="linguine">
+                    <input type="button" class="ingredient-button" value="noodles">
+                    <input type="button" class="ingredient-button" value="lasagna noodles">
+                    <input type="button" class="ingredient-button" value="soba noodles">
+                    <input type="button" class="ingredient-button" value="fettuccine pasta">
+                    <input type="button" class="ingredient-button" value="jumbo pasta shells">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/bread.png" alt="image" width="60px" height="60px"  align = "left">Bread & Salty Snacks</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="potato chips">
+                    <input type="button" class="ingredient-button" value="blue corn tortilla chips">
+                    <input type="button" class="ingredient-button" value="corn chips">
+                    <input type="button" class="ingredient-button" value="buttered bread crumb">
+                    <input type="button" class="ingredient-button" value="hamburger buns">
+                    <input type="button" class="ingredient-button" value="plain breadcrumbs">
+                    <input type="button" class="ingredient-button" value="italian seasoned breadcrumbs">
+                    <input type="button" class="ingredient-button" value="hoagie rolls">
+                    <input type="button" class="ingredient-button" value="corn tortillas">
+                    <input type="button" class="ingredient-button" value="sourdough loaf">
+                    <input type="button" class="ingredient-button" value="panko breadcrumbs">
+                    <input type="button" class="ingredient-button" value="rye bread">
+                    <input type="button" class="ingredient-button" value="bread">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/olive-oil.png" alt="image" width="60px" height="60px"  align = "left">Oil & Fats</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="olive oil">
+                    <input type="button" class="ingredient-button" value="vegetable oil">
+                    <input type="button" class="ingredient-button" value="extra virgin olive oil">
+                    <input type="button" class="ingredient-button" value="oil">
+                    <input type="button" class="ingredient-button" value="cooking oil">
+                    <input type="button" class="ingredient-button" value="frying oil">
+                    <input type="button" class="ingredient-button" value="crisco shortening">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/vinegar.png" alt="image" width="60px" height="60px"  align = "left">Dressings & Vinegars</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="white wine vinegar">
+                    <input type="button" class="ingredient-button" value="cider vinegar">
+                    <input type="button" class="ingredient-button" value="mayonnaise">
+                    <input type="button" class="ingredient-button" value="white vinegar">
+                    <input type="button" class="ingredient-button" value="red wine vinegar">
+                    <input type="button" class="ingredient-button" value="sherry wine vinegar">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/ketchup.png" alt="image" width="60px" height="60px"  align = "left">Condiments</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="dijon mustard">
+                    <input type="button" class="ingredient-button" value="salt %26 pepper">
+                    <input type="button" class="ingredient-button" value="ketchup">
+                    <input type="button" class="ingredient-button" value="heinz chili sauce">
+                    <input type="button" class="ingredient-button" value="prepared yellow mustard">
+                    <input type="button" class="ingredient-button" value="chipotle chile in adobo">
+                    <input type="button" class="ingredient-button" value="soy sauce">
+                    <input type="button" class="ingredient-button" value="cranberry sauce">
+                    <input type="button" class="ingredient-button" value="worcestershire sauce">
+                    <input type="button" class="ingredient-button" value="prepared mustard">
+                    <input type="button" class="ingredient-button" value="reduced-fat mayonnaise">
+                    <input type="button" class="ingredient-button" value="umeboshi plum paste">
+                    <input type="button" class="ingredient-button" value="yellow mustard">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/canned-food.png" alt="image" width="60px" height="60px"  align = "left">Canned Food</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="canned black beans">
+                    <input type="button" class="ingredient-button" value="creamed corn">
+                    <input type="button" class="ingredient-button" value="chili without beans">
+                    <input type="button" class="ingredient-button" value="crushed pineapple in juice">
+                    <input type="button" class="ingredient-button" value="diced tomatoes with juice">
+                    <input type="button" class="ingredient-button" value="crushed tomatoes">
+                    <input type="button" class="ingredient-button" value="pumpkin puree">
+                    <input type="button" class="ingredient-button" value="diced tomatoes with jalapenos">
+                    <input type="button" class="ingredient-button" value="chopped tomatoes">
+                    <input type="button" class="ingredient-button" value="corned beef">
+                    <input type="button" class="ingredient-button" value="dill pickles">
+                    <input type="button" class="ingredient-button" value="water-packed artichoke hearts">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/tabasco.png" alt="image" width="60px" height="60px"  align = "left">Sauces, Spreads & Dips</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="hot pepper sauce">
+                    <input type="button" class="ingredient-button" value="stewed tomatoes">
+                    <input type="button" class="ingredient-button" value="tomato sauce">
+                    <input type="button" class="ingredient-button" value="pasta sauce">
+                    <input type="button" class="ingredient-button" value="pizza sauce">
+                    <input type="button" class="ingredient-button" value="crema">
+                    <input type="button" class="ingredient-button" value="maraschino juice">
+                    <input type="button" class="ingredient-button" value="tabasco sauce">
+                    <input type="button" class="ingredient-button" value="chicken gravy">
+                    <input type="button" class="ingredient-button" value="spaghetti sauce mix">
+                    <input type="button" class="ingredient-button" value="tomato paste">
+                    <input type="button" class="ingredient-button" value="low-fat creme fraiche">
+                    <input type="button" class="ingredient-button" value="horseradish sauce">
+                    <input type="button" class="ingredient-button" value="salsa">
+                    <input type="button" class="ingredient-button" value="hot sauce">
+                    <input type="button" class="ingredient-button" value="alfredo sauce">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/hot-soup.png" alt="image" width="60px" height="60px"  align = "left">Soups, Stews & Stocks</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="clam juice">
+                    <input type="button" class="ingredient-button" value="beef stock">
+                    <input type="button" class="ingredient-button" value="low sodium chicken broth">
+                    <input type="button" class="ingredient-button" value="unsalted beef stock">
+                    <input type="button" class="ingredient-button" value="chicken stock">
+                    <input type="button" class="ingredient-button" value="tomato soup">
+                    <input type="button" class="ingredient-button" value="cream of mushroom soup">
+                    <input type="button" class="ingredient-button" value="cream of chicken soup">
+                    <input type="button" class="ingredient-button" value="vegetable broth">
+                    <input type="button" class="ingredient-button" value="beef broth">
+                    <input type="button" class="ingredient-button" value="chicken bouillon">
+                    <input type="button" class="ingredient-button" value="chicken broth">
+                    <input type="button" class="ingredient-button" value="chicken base">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/chocolate.png" alt="image" width="60px" height="60px"  align = "left">Desert & Sweet Snack</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="shortcake cups">
+                    <input type="button" class="ingredient-button" value="ice cream">
+                    <input type="button" class="ingredient-button" value="hot fudge">
+                    <input type="button" class="ingredient-button" value="baking chocolate">
+                    <input type="button" class="ingredient-button" value="pralines">
+                    <input type="button" class="ingredient-button" value="caramel sauce">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/sweet-wine.png" alt="image" width="60px" height="60px"  align = "left">Wine, Beer & Spirits</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="dry red wine">
+                    <input type="button" class="ingredient-button" value="cognac">
+                    <input type="button" class="ingredient-button" value="dry white wine">
+                    <input type="button" class="ingredient-button" value="pear cider">
+                    <input type="button" class="ingredient-button" value="brandy">
+                    <input type="button" class="ingredient-button" value="marsala wine">
+                    <input type="button" class="ingredient-button" value="white rum">
+                    <input type="button" class="ingredient-button" value="blue curacao">
+                    <input type="button" class="ingredient-button" value="white wine">
+                    <input type="button" class="ingredient-button" value="coffee liqueur">
+                    <input type="button" class="ingredient-button" value="beer">
+                    <input type="button" class="ingredient-button" value="apple cider">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/drink.png" alt="image" width="60px" height="60px"  align = "left">Beverages</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="espresso coffee">
+                    <input type="button" class="ingredient-button" value="grapefruit juice">
+                    <input type="button" class="ingredient-button" value="pineapple juice">
+                    <input type="button" class="ingredient-button" value="brewed coffee">
+                    <input type="button" class="ingredient-button" value="dry sherry">
+                    <input type="button" class="ingredient-button" value="instant apple cider drink mix">
+
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+            <div class="ingredient-container">
+                <h2 class="ingredient-header"><img src="./images/colorant.png" alt="image" width="60px" height="60px"  align = "left">Supplements & Extracts</h2>
+                <!-- Add ingredient buttons here -->
+                <div class="ingredient-list">
+                    <input type="button" class="ingredient-button" value="red food coloring">
+                    <input type="button" class="ingredient-button" value="blue food coloring">
+                    <input type="button" class="ingredient-button" value="almond extract">
+                    <input type="button" class="ingredient-button" value="green food coloring">
+                    <input type="button" class="ingredient-button" value="coconut extract">
+                    <!-- Add more buttons as needed -->
+              </div>
+            </div>
+
+    </div>
+
+    <div id="overlay"></div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <h2>Recipe Details</h2>
+            <!-- Add recipe details here -->
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="rsh">
+                <div class="profile-icon" id="profile-icon">
+                    <img src="https://www.nicepng.com/png/detail/7-72691_interface-icons-star-icon-comments-star-icon-png.png" alt="Logo" onclick="showFavorites()">
+                </div>
+                
+                <div class="header-1">
+                    <div class="website-name">
+                        <h1>CULINARY CRAFTERS</h1>
+                    </div>
+                    
+                        <div class="search-bar-right" >
+                        <i class="search-icon-1"></i>
+                        <input type="text" id="search-ing-r" placeholder="Search..." class="form-control">
+                    </div>
+
+                    <div class="ingredients-duplicate">
+                        <h2>INGREDIENTS</h2>
+                        <div id="selectedIngredients"></div>
+                        <div class="duplicate-button-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-content">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="recipe-card" data-card-id="recipe1">
+                                <img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-FF3.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <span class="ingredient-count-placeholder">0</span> Ingredients Matched
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                                <button class="favoriteButton">&#10084;</button>
+                            </div>
+                        </div>
+                        
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card" data-card-id="recipe1">
+                                <img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-FF3.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <span class="ingredient-count-placeholder">0</span> Ingredients Matched
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                                <button class="favoriteButton">&#10084;</button>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="recipe-card" data-card-id="recipe1">
+                                <img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-FF3.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <span class="ingredient-count-placeholder">0</span> Ingredients Matched
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                                <button class="favoriteButton">&#10084;</button>
+                            </div>
+                        </div>
+                        
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card" data-card-id="recipe1">
+                                <img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-FF3.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <span class="ingredient-count-placeholder">0</span> Ingredients Matched
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                                <button class="favoriteButton">&#10084;</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more recipe cards as needed -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="recipe-card" data-card-id="recipe1">
+                                <img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-FF3.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                                <button class="favoriteButton">&#10084;</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe2.jpg" alt="Recipe 2 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 2 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 2.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe1.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 1.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe2.jpg" alt="Recipe 2 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 2 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 2.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                        <!-- Add more recipe cards as needed -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="https://www.thespruceeats.com/thmb/XDBL9gA6A6nYWUdsRZ3QwH084rk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-chicken-biryani-recipe-7367850-hero-A-ed211926bb0e4ca1be510695c15ce111.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">Ingredients : </p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe2.jpg" alt="Recipe 2 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 2 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 2.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe1.jpg" alt="Recipe 1 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 1 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 1.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <div class="recipe-card">
+                                <img src="recipe2.jpg" alt="Recipe 2 Image" class="img-fluid">
+                                <h3 class="recipe-title">Recipe 2 Title</h3>
+                                <p class="recipe-description">This is the description for Recipe 2.</p>
+                                <button class="recipe-button btn btn-primary">View Recipe</button>
+                            </div>
+                        </div>
+                        <!-- Add more recipe cards as needed -->
+                    </div>
+                </div>
+            </div>
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+
+   
+    <script src="info.js"></script>
+</body>
+</html>
